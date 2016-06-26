@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.psu.ist402.cleanride.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Please enter your username and password to login. If you do not yet have these, you'll need to register."
+        android:id="@+id/loginDirections"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:text="Username"
+        android:ems="10"
+        android:id="@+id/loginUserNameField" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/loginPasswordField" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="navToRegister"
+        android:layout_margin="10dp"
+        android:text="Register"
+        android:id="@+id/registerButton"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="navToHome"
+        android:layout_margin="10dp"
+        android:text="Main"
+        android:id="@+id/loginMainButton"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
