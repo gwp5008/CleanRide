@@ -54,7 +54,7 @@
                 android:inputType="textPersonName"
                 android:text="Email"
                 android:ems="10"
-                android:id="@+id/emailField" />
+                android:id="@+id/registerEmailField" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -63,7 +63,7 @@
                 android:inputType="textPersonName"
                 android:text="First Name"
                 android:ems="10"
-                android:id="@+id/firstNameField" />
+                android:id="@+id/registerFirstNameField" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -72,20 +72,20 @@
                 android:inputType="textPersonName"
                 android:text="Last Name"
                 android:ems="10"
-                android:id="@+id/lastNameField" />
+                android:id="@+id/registerLastNameField" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Are you a driver?"
-                android:id="@+id/driverBox" />
+                android:id="@+id/registerDriverBox" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="Attempt Register"
-                android:id="@+id/attemptRegisterButton"
+                android:id="@+id/registerAttemptRegisterButton"
                 android:layout_gravity="center"/>
 
             <Button
